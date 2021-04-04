@@ -1,0 +1,22 @@
+.about {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 2.5rem;
+  &__article {
+    float: left;
+    width: 65%;
+    text-align: center;
+  }
+  &__aside {
+    float: right;
+    width: 25%;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+
+  &__aside,
+  & p:nth_child(3) {
+    padding: 2.5rem;
+  }
+}

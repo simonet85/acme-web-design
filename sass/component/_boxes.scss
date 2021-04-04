@@ -1,0 +1,32 @@
+.boxes {
+  min-height: 30rem;
+  &__container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+.box {
+  float: left;
+  /* display: inline-block; */
+  width: 30%;
+  text-align: center;
+  margin-top: 3rem;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+
+  &-1-img {
+    width: 10rem;
+  }
+  &-2-img {
+    width: 10rem;
+  }
+  &-3-img {
+    width: 10rem;
+  }
+  //   &__heading {
+  //   }
+  //   &__content {
+  //   }
+}

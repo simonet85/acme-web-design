@@ -1,0 +1,31 @@
+.newsletter {
+  background-color: $color-primary;
+  min-height: 10rem;
+  &__container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  &__heading {
+    float: left;
+    width: 55%;
+    color: $color_white;
+    margin-top: 3.5rem;
+  }
+  &__form {
+    float: right;
+    margin-top: 3rem;
+  }
+  &__input {
+    padding: 1rem 0rem;
+    width: 18rem;
+  }
+  &__btn {
+    border: none;
+    padding: 1.2rem 0rem;
+    width: 8rem;
+    background-color: $color-secondary;
+    color: $color-white;
+    cursor: pointer;
+  }
+}

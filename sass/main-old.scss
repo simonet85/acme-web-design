@@ -1,24 +1,22 @@
 //abstract
-// @import './abstract/function';
-// @import './abstract/mixin';
+@import './abstract/function';
+@import './abstract/mixin';
 @import './abstract/variable';
 
 //base
-// @import './base/animation';
+@import './base/animation';
 @import './base/base';
 @import './base/typography';
 @import './base/utilities';
 
 //layout
-@import './layouts/header';
-@import './layouts/navigation';
 @import './layouts/footer';
+@import './layouts/header.scss';
+@import './layouts/header.scss';
 //components
 @import './component/newsletter';
 @import './component/boxes';
 @import './component/banner';
-@import './component/services';
-@import './component/about';
-@import './component/contact';
-
+@import "./component/navigation"
 //page
+// @import './pages/home';

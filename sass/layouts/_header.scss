@@ -1,0 +1,17 @@
+.header {
+  background-color: $color-primary;
+  min-height: 10rem;
+  color: $color-white;
+  border-bottom: 0.4rem solid $color-secondary;
+  padding: 0rem 1rem 0rem 1rem;
+
+  &__branding {
+    float: left;
+    margin-top: 3rem;
+
+    &--active {
+      color: $color-secondary;
+      font-weight: bold;
+    }
+  }
+}

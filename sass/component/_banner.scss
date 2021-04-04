@@ -1,0 +1,19 @@
+.banner {
+  background: url('../../img/showcase.jpg') no-repeat 0 -400px;
+  min-height: 40rem;
+  text-align: center;
+  color: #ffffff;
+  &__container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  &__heading {
+    font-size: 5.5rem;
+    margin-top: 10rem;
+  }
+  &__content {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+}
